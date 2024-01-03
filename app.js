@@ -4,6 +4,12 @@ import { loadData } from './services/Menu.js';
 import Router from './services/Router.js';
 import Store from './services/Store.js';
 
+// Link the web component to the app.js
+import { DetailsPage } from './components/DetailsPage.js';
+import { MenuPage } from './components/MenuPage.js';
+import { OrderPage } from './components/OrderPage.js';
+import { ProductItem } from './components/ProductItem.js';
+
 // I am assigning Store to window.glass.store
 window.glass = {}
 glass.store = Store;
